@@ -39,6 +39,7 @@ export default function ImagePicker({ label, name }) {
                 src={pickedImage}
                 alt="The image selected by the user."
                 fill
+                sizes="(max-width: 600px) 100vw, 50vw"
               />
             )}
           </div>

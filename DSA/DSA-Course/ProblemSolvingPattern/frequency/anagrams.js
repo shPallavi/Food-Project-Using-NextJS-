@@ -39,4 +39,25 @@ function validAnagram(str1, str2) {
   return true;
 }
 
-console.log(validAnagram("anagram", "nagaram"));
+// console.log(validAnagram("anagram", "nagaram"));
+
+// function constructNote(message, letters) {
+//   let freq = {};
+
+//   // Count all letters
+//   for (let char of letters) {
+//     freq[char] = (freq[char] || 0) + 1;
+//   }
+
+//   // Try to build message
+//   for (let char of message) {
+//     if (!freq[char]) return false;
+//     freq[char]--;
+//   }
+
+//   return true;
+// }
+
+// console.log(constructNote("aa", "abc"));
+// console.log(constructNote("abc", "dcba"));
+// console.log(constructNote("aabbcc", "bcabcaddff"));
